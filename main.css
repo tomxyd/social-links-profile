@@ -14,6 +14,7 @@
 *::after {
      padding: 0;
      margin: 0;
+     box-sizing: border-box;
 }
 
 body,
@@ -29,7 +30,7 @@ html {
 img {
      max-width: 100%;
      border-radius: 80px;
-     height: 100px;
+     height: 80px;
 }
 body {
      display: flex;
@@ -41,8 +42,8 @@ body {
 
 main {
      background-color: var(--medium-grey);
-     width: 75%;
-     height: 550px;
+     width: 80%;
+     height: 600px;
      padding: 20px;
      border-radius: 15px;
 }
@@ -100,7 +101,7 @@ footer a {
 
 @media (min-width: 750px) {
      main {
-          width: 18%;
+          width: 20%;
           padding: 30px;
      }
 }
