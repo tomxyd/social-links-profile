@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+     --dark-grey: hsl(0, 0%, 8%);
+     --medium-grey: hsl(0, 0%, 12%);
+     --normal-grey: hsl(0, 0%, 20%);
+     --green: hsl(75, 94%, 57%);
+     --light-weight: 400;
+     --medium-weight: 600;
+     --thick-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+     padding: 0;
+     margin: 0;
+}
+
+body,
+html {
+     margin: 0;
+     padding: 0;
+     min-height: 100vh;
+     text-align: center;
+     font-family: "Inter", sans-serif;
+     font-size: 14px;
+}
+
+img {
+     max-width: 100%;
+     border-radius: 80px;
+     height: 100px;
+}
+body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: var(--dark-grey);
+}
+
+main {
+     background-color: var(--medium-grey);
+     width: 75%;
+     height: 550px;
+     padding: 20px;
+     border-radius: 15px;
+}
+
+h1 {
+     color: white;
+     margin-top: 20px;
+     font-size: 1.8em;
+}
+
+h2 {
+     color: var(--green);
+     margin-top: 10px;
+     font-weight: var(--medium-weight);
+     font-size: 1.1em;
+}
+
+p {
+     color: white;
+     margin-top: 30px;
+}
+
+.social-links {
+     margin-top: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+button {
+     margin-top: 15px;
+     padding: 15px;
+     background-color: var(--normal-grey);
+     border: none;
+     border-radius: 10px;
+     color: white;
+     font-weight: var(--medium-weight);
+     font-family: "Inter", sans-serif;
+}
+
+button:hover {
+     background-color: var(--green);
+     color: var(--normal-grey);
+}
+
+footer {
+     font-size: 11px;
+     text-align: center;
+     margin-top: 40px;
+     color: white;
+}
+footer a {
+     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 750px) {
+     main {
+          width: 18%;
+          padding: 30px;
+     }
+}
